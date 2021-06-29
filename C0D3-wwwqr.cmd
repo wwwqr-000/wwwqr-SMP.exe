@@ -1,5 +1,5 @@
 @echo off
 color a
 cls
-start https://youtube.com
+start https://google.com
 exit
