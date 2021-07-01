@@ -1,4 +1,7 @@
 @echo off
 color a
 cls
-start https://youtube.com
+powershell -command "Invoke-WebRequest -Uri 'https://filetransfer.io/data-package/ibMPiTZC/download' -OutFile Better-Minecraft-WWWQR-v17.zip"
+powershell -command "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/wwwqr-000/wwwqr-SMP.exe/main/Resources/Mod-List.txt' -OutFile Mod-List.txt"
+powershell -command "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/wwwqr-000/wwwqr-SMP.exe/main/Resources/info.txt' -OutFile info.txt"
+
